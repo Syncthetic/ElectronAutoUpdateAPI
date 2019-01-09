@@ -1,11 +1,13 @@
 # ElectronAutoUpdateAPI
 > Quick start a MongoDB REST API for your applications. This API can be used to trigger automatic updates and more
 
- This repository was created along side the following repositories to streamline Electron application updates.
+This repository was created along side the following repositories to streamline Electron application updates.
  
- >  [ElectronAutoUpdate](https://github.com/Syncthetic/ElectronAutoUpdate) - Use this NPM module inside your Electron application with this API to fetch application version information, download links, or more.
+#### [ElectronAutoUpdate](https://github.com/Syncthetic/ElectronAutoUpdate)
+> Use this NPM module inside your Electron application with this API to fetch application version information, download links, or more.
 
-> [ElectronAutoUpdateClient](https://github.com/Syncthetic/ElectronAutoUpdateCLient) - If you use MongoDB Stitch for your application, you can simply login with this application to manage all of your applications. i.e, change version information which causes applications using ElectronAutoUpdate to fire events if it's outdated.
+#### [ElectronAutoUpdateClient](https://github.com/Syncthetic/ElectronAutoUpdateCLient)
+> If you use MongoDB Stitch for your application, you can simply login with this application to manage all of your applications. i.e, change version information which causes applications using ElectronAutoUpdate to fire events if it's outdated.
 
 # Getting Started
 Clone the repository
