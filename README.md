@@ -1,10 +1,19 @@
 # ElectronAutoUpdateAPI
-> Quick start a MongoDB REST API for applications
+> Quick start a MongoDB REST API for your applications. This API can be used to trigger automatic updates and more
 
-To get started, clone the repository
+ This repository was created along side the following repositories to streamline Electron application updates.
+ 
+ >  [ElectronAutoUpdate](https://github.com/Syncthetic/ElectronAutoUpdate) - Use this NPM module inside your Electron application with this API to fetch application version information, download links, or more.
+
+> [ElectronAutoUpdateClient](https://github.com/Syncthetic/ElectronAutoUpdateCLient) - If you use MongoDB Stitch for your application, you can simply login with this application to manage all of your applications. i.e, change version information which causes applications using ElectronAutoUpdate to fire events if it's outdated.
+
+# Getting Started
+Clone the repository
+
 `git clone https://github.com/Syncthetic/ElectronAutoUpdateAPI`
 
-Install dependant packages `cd ElectronAutoUpdateAPI && npm i`
+Install dependant packages
+`cd ElectronAutoUpdateAPI && npm i`
 
 This packages relies on [RestOnExpress](https://github.com/Syncthetic/RestOnExpress), so ensure that you set the ROE (RestOnexpress) environment variables for the mongo connection, application URI base, and port.
 
@@ -28,19 +37,20 @@ node app.js
 ```
 # Resource Requests
 Sending API requests:
+
 `http://<server>:<ROE_PORT>/<ROE_API_BASE>/<desired route path>`
 
 > The application comes with two available resources by default
 > Return all applications
+
 `GET /api/applications`
+
 > Return information for a single application
+
 `GET /api/application/app-name`
 
 # Todo
 - Create deeper resources for application information
+
   > `GET /api/application/app-name/version`
   > `GET /api/application/app-name/download`
-
- This repository was created along side the following to streamline Electron application updates.
-- [ElectronAutoUpdate](https://github.com/Syncthetic/ElectronAutoUpdate) 
-- [ElectronAutoUpdateClient](https://github.com/Syncthetic/ElectronAutoUpdateCLient)
