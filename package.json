@@ -2,16 +2,22 @@
   "name": "@syncthetic/electron-auto-update-api",
   "version": "0.0.1",
   "description": "Quick start a MongoDB REST API for applications",
+  "homepage": "https://github.com/Syncthetic/ElectronAutoUpdateAPI",
+	"bugs": "https://github.com/Syncthetic/ElectronAutoUpdateAPI/issues",
+	"author": {
+		"name": "Justin Bess",
+		"email": "code@justinbess.com",
+		"url": "https://justinbess.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Syncthetic/ElectronAutoUpdateAPI"
+	},
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "homepage": "https://github.com/Syncthetic/ElectronAutoUpdateAPI",
-  "author": {
-    "name": "Justin Bess",
-    "email": "code@justinbess.com"
-  },
   "license": "GNU General Public License v3.0",
   "dependencies": {
     "@syncthetic/rest-on-express": "0.0.2"
