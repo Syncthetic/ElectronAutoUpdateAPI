@@ -1,6 +1,6 @@
 {
   "name": "@syncthetic/electron-auto-update-api",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Quick start a MongoDB REST API for applications",
   "homepage": "https://github.com/Syncthetic/ElectronAutoUpdateAPI",
 	"bugs": "https://github.com/Syncthetic/ElectronAutoUpdateAPI/issues",
